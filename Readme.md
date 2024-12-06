@@ -1,10 +1,13 @@
 
-## Backend
+# Backend
 
 ### Path : /signup
 Method: POST<br>
 Body:<br>
-```{name:"John", email:"john@example.com", password:"1234"}```
+
+```
+{name:"John", email:"john@example.com", password:"1234"}
+```
 
 #### Responses : <br>
 Server Error : 500<br>
@@ -15,13 +18,20 @@ Success : 201
 ### Path : /login
 Method: POST <br>
 Body:<br>
-```{email:"john@example.com", password:"1234"}```
+```
+{email:"john@example.com", password:"1234"}
+```
+
 #### Responses :<br>
 Server Error : 500<br>
 User Does Not Exist : 401<br>
 Success : 201
 
+<hr/>
+
 #### Server side Validation using JOI Library.
+
+<hr/>
 
 #### Middleware to Interace JWT Token
 header <br>
@@ -42,12 +52,14 @@ authorization : jwttoken<br>
 2. Login Page
     - Client side validation
     - Login a integration then store JWT Token
-3. Signup Page
+3. Sign Up Page
     - Client side validation
-    - Signup API integration
+    - Sign Up API integration
 4. Home Page 
     - Show logged in username
     - show logout button
+
+<hr/>
 
 NPM Packages
 1. express - framework
