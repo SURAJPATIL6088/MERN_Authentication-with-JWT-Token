@@ -29,7 +29,7 @@ const Signup = () => {
     }
 
     try {
-      const url = "http://localhost:8080/auth/signup";
+      const url = "https://mern-authentication-with-jwt-token-api.vercel.app/auth/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
