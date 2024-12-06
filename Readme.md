@@ -1,6 +1,8 @@
 
 # Backend
 
+Live : https://mern-authentication-with-jwt-token-api.vercel.app/test
+
 ### Path : /signup
 Method: POST<br>
 Body:<br>
@@ -47,6 +49,9 @@ authorization : jwttoken<br>
 <hr/>
 
 # Frontend 
+
+Live : https://mern-authentication-with-jwt-token-frontend.vercel.app/
+
 1. Routing
     - Private Routing
 2. Login Page
