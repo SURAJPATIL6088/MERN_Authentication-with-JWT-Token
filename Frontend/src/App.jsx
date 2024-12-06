@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
-import Login from "./Pages/login";
-import Signup from "./Pages/signup";
+import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
 import Home from "./Pages/Home";
 import RefreshHandler from "./RefreshHandler";
 
